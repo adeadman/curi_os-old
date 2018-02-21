@@ -7,9 +7,3 @@ authors = ["Aaron Deadman <aaron@introspection.net.au>"]
 rlibc = "1.0.0"
 spin = "0.4"
 volatile = "0.2.3"
-
-[profile.dev]
-panic = "abort"
-
-[profile.release]
-panic = "abort"
